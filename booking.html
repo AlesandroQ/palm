@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+ <meta charset="utf-8" />
+    <title>PALM-Hotel Html template</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+      
+     <!-- Icon Font Stylesheet --> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+     <!-- Libraries Stylesheet -->   
+<link rel="stylesheet" href="CSS/animate.min.css"> 
+<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+     
+    <!-- Customized Bootstrap Stylesheet --> 
+<link rel="stylesheet" href="CSS/bootstrap.min.css">   
+      
+  <!-- Template Stylesheet -->    
+<link rel="stylesheet" href="CSS/style.css">
+      
+ 	</head> 
+   <body> 
+  <!-------- 
+  Start Loader
+  ---------->     
+  
+     <div id="loader" class="show d-flex align-items-center justify-content-center position-fixed start-50 top-50" style="transform: translateX(-50%)">
+           <div class="custom-loader" role="status">
+         <span class="sr-only">Loading ... </span>
+     </div> 
+     </div> 
+     
+  <!-------- 
+  End Loader
+  ---------->    
+<!------------
+Start Header
+------------->   
+  <section class="header"> 
+     <div class="container-fluid border border-secondary">
+     <div class="d-flex flex-row justify-content-evenly">
+       <p class="my-auto">
+          <i class="fa-solid fa-phone fa-sm me-2" style="color: #a3623d;"></i>
+          +382 (0)69 15-XX-XXX
+       </p>
+       <p class="my-auto">
+         <i class="fa-solid fa-envelope fa-sm me-2" style="color: #a3623d;"></i>
+          jondoe@example.com
+       </p>
+    </div>
+   </div>
+    <div class="container-fliud bg-dark px-0">
+      <div class="row gx-0">
+        <div class="col-lg-3 bg-dark d-none d-lg-block">
+          <div class="logo d-flex flex-row align-items-center">
+            <a href="#"><img src="images/palm_logo-8249555_640.png" alt="palm_logo"></a>
+            <a href="#"><h1 class="title">PALM</h1></a> 
+          </div>
+        </div>
+     
+                  <nav class="col-lg-6 navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                      <div class="logo d-flex flex-row align-items-center d-lg-none d-block">
+                         <a href="#"><img src="images/palm_logo-8249555_640.png" alt="palm_logo"></a>
+                         <a href="#"><h1 class="title">PALM</h1></a> 
+                      </div>
+                      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                         <span class="navbar-toggler-icon"></span>
+                      </button>
+                       <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="index.html" class="nav-item nav-link me-4">Home</a>
+                                <a href="about.html" class="nav-item nav-link me-4">About</a>
+                                <a href="services.html" class="nav-item nav-link me-4">Services</a>
+                                <a href="rooms.html" class="nav-item nav-link me-4">Rooms</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle me-4" data-toggle="dropdown" aria-expanded="false">Pages</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="booking.html" class="dropdown-item">Booking</a>
+                                        <a href="team.html" class="dropdown-item">Our Team</a>
+                                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    </div>
+                                </div>
+                                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            </div>
+                       </div>    
+                  </nav>
+        
+      <div class="col-lg-3 social_links px-5 text-end d-none d-lg-inline">
+        <div class="d-inline-flex align-items-center py-2 ">
+          <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="" class="me-3"><i class="fab fa-twitter"></i></a>
+          <a href="" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+          <a href="" class="me-3"><i class="fab fa-instagram"></i></a>
+          <a href="" class="me-3"><i class="fab fa-youtube"></i></a>
+       </div>
+      </div> 
+      </div>
+    </div>
+  </section>
+  <!------------
+   End Header
+  -------------> 
+ <!----------------
+  Start Image-header
+ ----------------->       
+      
+    <section class="container-fluid image-header px-0" style="background:url(images/bedroom-349698_1280_a.jpg);">
+        <div class="container-fluid image-header-inner py-5">
+             <div class="container text-center mb-5">
+                <h1 class="display-3 text-white fw-bold mb-4">Booking</h1>  
+                    
+             <nav>
+                <ul class="breadcrumb justify-content-center text-center text-uppercase fw-medium">
+                    <li class="breadcrumb-item">
+                        <a href="" class="text-primary">Home</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                          <a href="#">Booking</a>
+                    </li>
+                </ul>
+             </nav>
+            
+            
+            </div> 
+        </div>    
+    </section>
+ <!----------------
+  End Image-header
+ ----------------->       
+      
+       
+  <!------------
+  Start Booking
+ ------------->   
+  <section class="booking pb-5 wow fadeIn" data-wow-duration="2s" style="animation: fadeIn; visibility: visible;"> 
+    <div class="container">
+        <div class="bg-white shadow"  style="padding: 35px;">
+                 <div class="row">
+                   <div class="col-lg-10">
+                     <div class="row">
+                       
+                    <div class="col-lg-3">
+                        <label for="check_in_date" class="fw-bold">Check in</label>
+                        <input type="date" id="check_in_date" class="form-control">
+                    </div>  
+                 
+                    <div class="col-lg-3 ">
+                        <label for="check_out_date" class="fw-bold">Check out</label>
+                        <input type="date" id="check_out_date" class="form-control">
+                    </div>  
+                  
+           
+                    <div class="col-lg-3 ">  
+                       <label for="adults" class="fw-bold">Adults</label>
+                       <select class="form-select" name id="adults" >
+                         <option>0</option> 
+                         <option>1</option>
+                         <option>2</option>
+                         <option>3</option>
+                         <option>4+</option> 
+                      </select>
+                    </div> 
+                
+             
+        
+                  <div class="col-lg-3">
+                    <label for="children" class="fw-bold">Children</label>
+                      <select class="form-select" id="children">
+                       <option>0</option>
+                       <option>1</option>
+                       <option>2</option>
+                       <option>3</option>
+                       <option>4+</option>
+                    </select>
+                  </div> 
+                 
+               </div>
+             </div>   
+       
+         
+                <div class="col-lg-2 py-4">
+                  <button class="btn btn-primary btn-block text-white">Check Availabilty</button>
+                </div>
+          </div>          
+       </div> 
+      </div>
+    </section>    
+ <!------------
+  End Booking
+ -------------> 
+     
+ <!--------------
+  Start Booking_2
+ --------------->     
+     
+  <section class="booking_2 mt-3 mb-5">
+      <div class="container">
+        <div class="text-center py-3  position-relative  wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-name: fadeInDown;"> 
+          <h6 class="text-primary text-uppercase">Booking</h6>
+            <h1 class="mb-5">Booking <span class="text-primary text-uppercase">room</span></h1>
+        </div>
+    
+         
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-6">
+            
+                   <div class="col-6 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: zoomIn;" >
+                   <img src="images/beach-1836335_1280.jpg" class="img-fluid w-100">
+                  </div> 
+                        
+                 <div class="col-6 position-relative start-50  wow zoomInLeft" data-wow-delay="0.3s"  style="visibility: visible; animation-name: zoomInLeft;"> 
+                   <img src="images/room_2.jpg" class="img-fluid w-75">
+                  </div>   
+              
+               
+            </div>
+        
+ 
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeInUp;">      
+           <form> 
+            <div class="row">  
+               <div class="col-md-6 mt-2">
+                   <label for="name" class="fw-bold">Your Name</label>   
+                   <input type="text" id="name" class="form-control" placeholder="">
+               </div>
+               
+           <div class="col-md-6 mt-2">
+               <label for="email" class="fw-bold">Your Email</label>
+               <input type="email" id="email" class="form-control" placeholder="">
+            </div>
+            
+          <div class="col-md-6 mt-2">
+               <label for="email" class="fw-bold">Check in</label>
+               <input type="date" id="date" class="form-control" placeholder="">
+         </div>
+        
+          <div class="col-md-6 mt-2">
+               <label for="date_2" class="fw-bold">Check out</label>
+               <input type="date" id="date_2" class="form-control" placeholder="">
+         </div>
+          
+            <div class="col-md-6 mt-2">
+            <label for="room" class="fw-bold">Room</label> 
+              <select class="form-select" id="room">
+                <option>Room 1</option>   
+                <option>Room 2</option>  
+                <option>Room 3</option>  
+                <option>Room 4</option> 
+              </select> 
+            </div>
+                   
+        <div class="col-md-6 mt-2">
+            <label for="adults_2" class="fw-bold">Adults</label> 
+              <select class="form-select" id="adults_2">
+                <option>0</option>   
+                <option>1</option>  
+                <option>2</option>  
+                <option>3</option> 
+                <option>4+</option>   
+              </select> 
+              </div>
+              
+          <div class="col-md-6 mt-2">
+            <label for="children_2" class="fw-bold">Children</label> 
+              <select class="form-select" id="children_2">
+               <option>0</option>   
+               <option>1</option>  
+               <option>2</option>  
+               <option>3</option> 
+               <option>4+</option>   
+            </select>  
+           </div>
+              
+          <div class="col-md-12 mt-2">
+               <label for="message" class="fw-bold">Your request</label>
+               <textarea class="form-control" id="message" placeholder="" style="height: 90px"></textarea>
+           </div>
+                
+         <div class="col-md-12 mt-3">
+           <button class="btn btn-primary w-100 p-2"  type="submit">Submit</button>
+         </div> 
+             </div>  
+               </form>        
+              </div>
+      </div>
+        </div>
+    </div>
+     </section>
+              
+ <!--------------
+  End Booking_2
+ --------------->      
+     
+              
+ <!---------------
+  Start Footer
+ ---------------->        
+  <section class="footer bg-dark">
+    <div class="container-fluid">
+      <div class="row mx-auto">
+        
+        <div class="col-lg-3 text-white mt-4 mb-1">
+          <h6 class="text-primary text-uppercase mb-3">Contact</h6>
+          <p>
+          <i class="fa-solid fa-location-dot fa-sm me-2" style="color: #a3623d;"></i>
+          Street, Tivat, MONTENEGRO   
+          </p>
+          <p>
+          <i class="fa-solid fa-phone fa-sm me-2" style="color: #a3623d;"></i>
+          +382 (0)69 15-XX-XXX
+          </p>
+          <p>
+          <i class="fa-solid fa-envelope fa-sm me-2" style="color: #a3623d;"></i>
+          jondoe@example.com
+          </p>
+         <div class="d-flex">
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+        </div>
+        
+        <div class="col-lg-3 text-white text-start mt-4 mb-1">
+          <h6 class="text-primary text-uppercase mb-3">Company</h6>
+          <a class="d-block" href="">
+          <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+          About us  
+          </a>
+         <a class="d-block" href="">
+           <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+          Contact us
+         </a>
+         <a class="d-block" href="">          
+         <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+         Privacy policy  
+         </a>
+         <a class="d-block" href="">          
+         <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+         Terms and condition
+         </a>
+          <a class="d-block" href="">
+          <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+          Support           
+         </a>
+       </div>
+     
+      <div class="col-lg-3 text-white mt-4 mb-1 align-items-center">
+          <h6 class="text-primary text-uppercase mb-3">Services</h6>
+          <a class="d-block" href="">
+          <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+          Restaurant 
+          </a>
+         <a class="d-block" href="">
+           <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+         Fitness
+         </a>
+         <a class="d-block" href="">          
+         <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+        Swimming pool
+         </a>
+         <a class="d-block" href="">          
+         <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+         Wellness
+         </a>
+          <a class="d-block" href="">
+          <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+          Beach wedding           
+         </a>
+         <a class="d-block" href="">
+          <i class="fa-solid fa-chevron-right fa-sm me-2" style="color: #a3623d;"></i>
+          Events          
+         </a>
+       </div>
+          <div class="col-lg-3  mt-4" >
+            <div class="text-center px-1">
+            <h4 class="mb-2 text-white">Subscribe our <span class="text-primary text-uppercase">NEWSLETTER</span></h4>
+              <div class="position-relative mx-auto" style="max-width: 400px;">
+              <input class="form-control w-100 p-2" type="text"  placeholder="Enter your e-mail">
+              <button type="button" class="btn btn-primary btn-lg-square position-absolute top-100 start-50 mt-2" style="transform:translate(-50%)">Submit</button>  
+              </div>            
+            </div>
+      
+        <div class="pt-5">
+          <div class="d-flex flex-column align-items-center justify-content-center mt-4">               
+            <img src="images/palm_logo-8249555_640.png" style="width: 80px;">
+            <h1 class="title">PALM</h1>  
+          </div>  
+        </div>        
+      </div>
+  
+  
+      <div class="container pt-4">
+       <div class="row text-white">
+         <div class="col-md-12 d-flex flex-row justify-content-between">
+           <a href="#" class="me-2">© Your site name</a>
+           <p class="me-2">All right reserved.</p> 
+           <p class="me-2">Designed by: Alesandro Q</p> 
+           <a href="" class="me-2">Help</a>
+           <a href="" class="me-2">FAQ</a>
+         </div>
+      </div>
+    </div> 
+    </div>
+    </div>
+   </section>
+ <!---------------
+   End Footer
+ ---------------->   
+     
+ <!---------------
+   Back to Top
+ ----------------> 
+   
+ <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+     
+  <!-- JavaScript Libraries -->    
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>  
+   <script src="JS/wow.min.js"></script>
+   <script src="JS/counterup.min.js"></script>
+   <script src="JS/waypoints.min.js"></script>
+     <script src="JS/easing.min.js"></script>
+  <!-- Template Javascript -->  
+   <script  src="JS/script.js" ></script>
+  
+     
+  </body>
+
+          </html>
+           
